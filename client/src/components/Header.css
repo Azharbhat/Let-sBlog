@@ -1,0 +1,76 @@
+.nav{
+    display: none;
+}
+.btn{
+margin-left:85%;
+display: none;
+text-align: end;
+}
+.auth{
+    display: none;
+}
+.btn{
+    background-color: transparent;
+    border: none;
+    font-size: large;
+    display:flex;
+}
+.nav{
+margin-left: 88%;
+flex-direction: column;
+justify-content: end;
+text-align: right;
+width: 10rem;
+}
+
+.tabs{
+    display: none;
+    margin-left: 70%;
+   
+}
+@media screen and (max-width:1200px) {
+    .btn{
+        background-color: transparent;
+        border: none;
+        font-size: large;
+        display:flex;
+        margin-left: 77%;
+    }
+    .nav{
+    margin-left: 85%;
+    flex-direction: column;
+   justify-content: end;
+   text-align: right;
+   width: 10rem;
+    }
+    
+    .tabs{
+        display: none;
+        margin-left: 70%;
+       
+    }
+
+}
+@media screen and (max-width:700px) {
+    .btn{
+        background-color: transparent;
+        border: none;
+        font-size: large;
+        display:flex;
+        margin-left: 60%;
+    }
+    .nav{
+    margin-left: 70%;
+    flex-direction: column;
+   justify-content: end;
+   text-align: right;
+   width: 10rem;
+    }
+    
+    .tabs{
+        display: none;
+        margin-left: 70%;
+       
+    }
+
+}

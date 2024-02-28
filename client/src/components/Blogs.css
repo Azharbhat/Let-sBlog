@@ -1,0 +1,13 @@
+.container{
+   
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap:1rem;
+    text-decoration: none;
+}
+*{
+    text-decoration: none;
+}
